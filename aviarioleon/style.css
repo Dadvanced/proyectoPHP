@@ -1,0 +1,44 @@
+body {
+    background-color: lightgreen;
+}
+
+@font-face {
+    font-family: "AlexBrush-Regular";
+    src: url("fonts/AlexBrush-Regular.ttf") format("truetype");
+}
+
+form > input {
+    width: 90%;
+}
+
+table {
+}
+
+.title {
+    font-family: "AlexBrush-Regular";
+    font-size: 300%;    
+}
+
+#mostrarFecha {
+    float: right;
+}
+
+input, select {
+    color: black;
+}
+
+#nuevoCriador {
+    margin-left: 50px;
+}
+
+#nuevoPajaro {
+    margin-left: 50px;
+}
+
+#nuevaCollera {
+    margin-left: 50px;
+}
+
+#nuevaCria {
+    margin-left: 50px;
+}
