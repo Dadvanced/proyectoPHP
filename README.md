@@ -1,5 +1,5 @@
-# proyectoPHP
-##Proyecto PHP con Ajax, JQuery UI y Bootstrap
+# ProyectoPHP
+Proyecto PHP con Ajax, JQuery UI y Bootstrap
 
 
 La aplicación consiste en un CRUD que gestiona los pájaros y dueños que una persona tiene en su casa.
