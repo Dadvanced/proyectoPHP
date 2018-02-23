@@ -28,3 +28,5 @@ if ($tabla == "pajaros") {
 
 $consult = "DELETE FROM $tabla WHERE $campo = '$id'";
     $conection->query($consult);
+
+    $conection->close();

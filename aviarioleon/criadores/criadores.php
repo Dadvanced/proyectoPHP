@@ -25,5 +25,7 @@ session_start();
             <td><button type="button" onclick="editarCriador('<?=$res->criador?>')" class="btn btn-warning botonEditar"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span></button></td>
             <?php }   ?>
         </tr>
-    <?php } mysqli_free_result($consult); ?>
+    <?php } 
+    mysqli_free_result($consult);
+    $conection->close(); ?>
     </tbody>

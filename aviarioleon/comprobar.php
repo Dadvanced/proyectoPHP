@@ -16,6 +16,7 @@ if ($login->num_rows) { //si la consulta anterior devuelve una columna, quiere d
     $mensaje = "<h3>Ha iniciado sesión correctamente. Redirigiendo...</h3>";
     session_start();
     $_SESSION["time"] = time();
+    $_SESSION["user"] = $user;
     $_SESSION["groupUser"] = $login->fetch_object()->grupo;
     header("refresh: 2; url=index.php");
  }

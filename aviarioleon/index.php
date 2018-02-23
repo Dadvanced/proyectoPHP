@@ -496,6 +496,11 @@
     <body>
         <span id="banner"><img src="img/bird.png"></img></span>
         <span class="title">Aviario León</span>
+        <span id="log">
+            <span>Has logueado como:</span>
+            <span><?=$_SESSION["user"]?></span>
+            <span> <a href="login.php">Cerrar sesión</a> </span>
+        </span>
         <input type="button" class="btn btn-success fecha" id="mostrarFecha" value="Fecha">
         
                 <!-- MENU -->

@@ -8,3 +8,7 @@ admin
 usuario invitado
 prueba
 1234
+
+
+NO están codificados a MD5 (u otro) DE MOMENTO, por si se quiere comprobar el valor del
+ pass directamente en la base de datos

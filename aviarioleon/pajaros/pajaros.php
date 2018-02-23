@@ -24,5 +24,8 @@ session_start();
             <td><button type="button" onclick="editarPajaro('<?=$res->anilla?>')" class="btn btn-warning botonEditar"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span></button></td>
             <?php }   ?>
         </tr>
-    <?php } mysqli_free_result($consult); ?>
+    <?php } 
+    mysqli_free_result($consult); 
+    $conection->close();
+    ?>
     </tbody>

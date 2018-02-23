@@ -1,3 +1,9 @@
+<?php
+if (isset($_SESSION["user"])) {
+    $_SESSION[] = array();
+    session_destroy();
+} ?>
+
 <!DOCTYPE HTML>
 <html>
     <head>
