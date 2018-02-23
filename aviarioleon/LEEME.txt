@@ -1,0 +1,10 @@
+página inicial de la aplicación:
+login.php
+
+usuario administrador:
+admin
+admin
+
+usuario invitado
+prueba
+1234

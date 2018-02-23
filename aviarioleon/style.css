@@ -42,3 +42,25 @@ input, select {
 #nuevaCria {
     margin-left: 50px;
 }
+
+#main {
+    margin: auto;
+    width: 50%;
+    height: 50%;
+}
+
+.jumbotron {
+    background-color: #66ff66;
+    border-radius: 15px;
+}
+
+#logUser, #logPass {
+    margin: auto;
+    width: 50%;
+}
+
+#submit {
+    margin-top: 23px;
+    margin-left: 320px;
+    margin-bottom: -25px;
+}

@@ -12,7 +12,7 @@ function lastIdUnion() {
     return($idUnion);
 }
 
-//devuelve el último registro de una tabla
+//devuelve el último registro de una tabla (probar)
 function lastData($campo, $tabla) {
     global $conection;
     $consult = $conection->query("SELECT $campo FROM $tabla
@@ -22,3 +22,12 @@ function lastData($campo, $tabla) {
     return($consult);
 }
     
+//comprueba si el pajaro a eliminar existe en la tabla collera
+function checkBird($anilla) {
+    $consult = $conection->query("SELECT * FROM unioncollera WHERE id = $id;");
+    if (mysql_num_rows($consult)>0) {
+        return true;
+    } else {
+        return false;
+    }
+}

@@ -8,6 +8,3 @@ function hideAll() {
     $("#nuevaCollera").hide();
     $("#nuevaCria").hide();
 }
-
-
-    
