@@ -11,4 +11,4 @@ Así pues, en la aplicación se pueden ver los dueños (criadores), los pájaros
 
 ![Modal Abierto](https://github.com/Dadvanced/proyectoPHP/blob/master/aviarioleon/screenshots/openModal.jpg "openModal")
 
-![Borrar registro](https://github.com/Dadvanced/proyectoPHP/blob/master/aviarioleon/screenshots/openModal.jpg "delete")
+![Borrar registro](https://github.com/Dadvanced/proyectoPHP/blob/master/aviarioleon/screenshots/delete.jpg "delete")
